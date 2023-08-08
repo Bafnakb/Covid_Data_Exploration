@@ -1,5 +1,5 @@
 -- Looking at Total Cases VS Total Deaths
--- Analysis of the correlation between Total Cases and Total Deaths in COVID-19 data.
+
 
 select location, date, total_cases,new_cases, total_deaths, new_deaths, population
 from covid_death
